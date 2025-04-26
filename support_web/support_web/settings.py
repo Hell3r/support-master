@@ -130,10 +130,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.yandex.ru'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
-EMAIL_HOST_USER = 'iidone@yandex.ru'
-EMAIL_HOST_PASSWORD = 'qhtdpgqlfenfwuzz'
+EMAIL_HOST_USER = 'email'
+EMAIL_HOST_PASSWORD = 'password'
 
-#qhtdpgqlfenfwuzz
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
