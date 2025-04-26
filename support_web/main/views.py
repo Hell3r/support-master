@@ -24,7 +24,7 @@ def send_issue_to_moderator(issue_id, moderator_name, issue):
     email = EmailMessage(
         f'Новая заявка от пользователя {issue.user_name} - {issue.issue}',
         issue.issue_description,
-        'iidone@yandex.ru',
+        'email',
         [moderator_mail],
     )
 
